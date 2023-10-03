@@ -448,6 +448,16 @@ nav .fa-solid{
     /*#header{
          background-image: url(images/img.png);
     }*/
+   
+    .profile {
+        position: static; /* Reset the positioning for smaller screens */
+        margin: 20px auto; /* Center the image horizontally */
+        transform: none; /* Remove any transformation */
+        width: 200px; /* Adjust the width for smaller screens */
+        height: auto; /* Allow the height to adjust proportionally */
+        /* Other properties for smaller screens... */
+    }
+
     .header-text{
         margin-top: 100%;
         font-size: 16px;
